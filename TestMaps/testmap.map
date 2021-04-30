@@ -1,0 +1,19 @@
+AddCar(100, 100)
+AddCar(400, 100)
+
+AddPathGroup(0)
+AddPath(0, 100, 100, 100, 500, 0)
+AddPath(0, 150, 100, 150, 500, 1)
+AddPathGroup(1)
+AddPath(1, 400, 100, 400, 600, 0)
+AddPath(1, 450, 100, 450, 600, 1)
+AddPathGroup(2)
+AddPath(2, 100, 450, 450, 450, 0)
+AddPath(2, 100, 500, 450, 500, 1)
+
+AddTask(0, 100, 500)
+AddTask(1, 400, 600)
+AddTask(0, 100, 100)
+AddTask(1, 400, 100)
+
+CalcPathIntersections(0)

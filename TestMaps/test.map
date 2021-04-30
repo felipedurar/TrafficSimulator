@@ -1,0 +1,10 @@
+AddRespawn(10, 10)
+AddRespawn(800, 600)
+
+AddPathGroup(1)
+AddPath(1, 60, 30, 830, 30, 1)
+AddPath(1, 60, 50, 830, 50, 1)
+
+AddPathGroup(2)
+AddPath(2, 810, 55, 810, 600, 1)
+AddPath(2, 830, 55, 830, 600, 1)
